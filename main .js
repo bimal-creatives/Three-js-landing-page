@@ -178,7 +178,7 @@ class Orb {
 // Create PixiJS app
 const app = new PIXI.Application({
   // render to <canvas class="orb-canvas"></canvas>
-  view: document.querySelector(".orb-canvas"),
+  view: document.querySelector(".orb-canvas, .orb-canvas2"),
   // auto adjust size to fit the current window
   resizeTo: window,
   // transparent background, we will be creating a gradient background later using CSS
